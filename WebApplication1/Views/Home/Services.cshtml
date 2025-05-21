@@ -1,0 +1,369 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+
+@{
+    var sessionValue = HttpContextAccessor.HttpContext.Session.GetString("session");
+
+    if (!string.IsNullOrEmpty(sessionValue))
+    {
+        Layout = "_afterloginLayout";
+    }
+    else
+    {
+        Layout = "_frontendLayout";
+    }
+}
+
+
+
+<div class="py-5">
+    <div class="container py-5 mb-5">
+        <div class="row justify-content-center">
+            <div class="col-xl-7 col-lg-8 col-md-10 col-12">
+                <div class="text-center text-white">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb d-flex align-items-center justify-content-center gap-1 text-white" data-aos="fade-up" data-aos-duration="600">
+                            <li class="breadcrumb-item small"><a asp-controller="Home" asp-action="Index" class="link-primary">HOME</a></li>
+                            <li><i class="ri-arrow-right-s-line"></i></li>
+                            <li class="breadcrumb-item text-white-50 small active" aria-current="page">SERVICES</li>
+                        </ol>
+                    </nav>
+                    <h1 class="fw-bold display-1 text-white" data-aos="fade-up" data-aos-duration="600">Our Services</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="bg-white shadow p-5 mt-n4">
+                    <div class="row justify-content-center g-4">
+                        <div class="col-lg-3 col-md-6 col-12" data-aos="zoom-in" data-aos-duration="600">
+                            <div class="text-center">
+                                <i class="ri-vip-crown-line display-2 text-primary"></i>
+                                <div class="pt-4">
+                                    <h5 class="fw-bold">Wedding </h5>
+                                    <p class="mb-0">We beautifully managed a wedding , creating a perfect day for the happy couple.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-12" data-aos="zoom-out" data-aos-duration="700">
+                            <div class="text-center">
+                                <i class="ri-cake-line display-2 text-primary"></i>
+                                <div class="pt-4">
+                                    <h5 class="fw-bold">Birthday</h5>
+                                    <p class="mb-0">We organized a fantastic birthday party, full of joy, laughter, and memorable.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-12" data-aos="zoom-in" data-aos-duration="700">
+                            <div class="text-center">
+                                <i class="ri-vip-crown-line display-2 text-primary"></i>
+                                <div class="pt-4">
+                                    <h5 class="fw-bold">Corporate Event</h5>
+                                    <p class="mb-0">We flawlessly executed a corporate event, ensuring a seamless and professional experience for all attendees.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-12" data-aos="zoom-out" data-aos-duration="800">
+                            <div class="text-center">
+                                <i class="ri-camera-2-line display-2 text-primary"></i>
+                                <div class="pt-4">
+                                    <h5 class="fw-bold">Photography</h5>
+                                    <p class="mb-0">We captured every special moment with stunning photography, preserving memories that will last a lifetime.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div class="py-5">
+    <div class="container py-5">
+
+
+        <div class="row align-items-center bg-white shadow-sm g-0">
+            <div class="col-lg-6 col-12">
+                <div class="text-center p-5">
+                    <div class="p-lg-5" data-aos="fade-right" data-aos-duration="600">
+                        <div class="mb-5">
+                            <h1 class="fw-bold pb-3">Wedding</h1>
+                            <p>
+                                We craft unforgettable weddings with personalized planning and attention to every detail, making your special day truly magical.
+                            </p>
+                        </div>
+                        <a class="link-dark" asp-controller="Home" asp-action="Contact">BOOK NOW<i class="ri-arrow-right-line ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-12" data-aos="fade-left" data-aos-duration="700">
+                <img src="~/img/eve9.jpeg" alt="weeding-flower" class="img-fluid">
+            </div>
+        </div>
+
+        <div class="row align-items-center bg-white shadow-sm g-0">
+            <div class="col-lg-6 col-12" data-aos="fade-right" data-aos-duration="700">
+                <img src="~/img/service_birthday_img.webp" alt="weeding-flower" class="img-fluid">
+            </div>
+            <div class="col-lg-6 col-12">
+                <div class="text-center p-5">
+                    <div class="p-lg-5" data-aos="fade-left" data-aos-duration="800">
+                        <div class="mb-5">
+                            <h1 class="fw-bold pb-3">Birthday</h1>
+                            <p>
+                                From intimate gatherings to grand celebrations, we organize memorable birthday parties tailored to your unique style and preferences.
+                            </p>
+                        </div>
+                        <a href="#" class="link-dark">BOOK NOW<i class="ri-arrow-right-line ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row align-items-center bg-white shadow-sm g-0">
+            <div class="col-lg-6 col-12">
+                <div class="text-center p-5" data-aos="fade-right" data-aos-duration="800">
+                    <div class="p-lg-5">
+                        <div class="mb-5">
+                            <h1 class="fw-bold pb-3">Seminar</h1>
+                            <p>
+                                We manage seminars with precise planning and coordination, ensuring a seamless and engaging experience for all attendees.
+                            </p>
+                        </div>
+                        <a class="link-dark" asp-controller="Home" asp-action="Contact">BOOK NOW<i class="ri-arrow-right-line ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-12" data-aos="fade-left" data-aos-duration="800">
+                <img src="~/img/eve14.jpg" alt="weeding-flower" class="img-fluid">
+            </div>
+        </div>
+
+        <div class="row align-items-center bg-white shadow-sm g-0">
+            <div class="col-lg-6 col-12" data-aos="fade-right" data-aos-duration="800">
+                <img src="~/img/eve7.jpeg" alt="weeding-flower" class="img-fluid">
+            </div>
+            <div class="col-lg-6 col-12">
+                <div class="text-center p-5">
+                    <div class="p-lg-5" data-aos="fade-left" data-aos-duration="900">
+                        <div class="mb-5">
+                            <h1 class="fw-bold pb-3">Business Event</h1>
+                            <p>
+                                Our expertise in organizing business events guarantees professional and impactful experiences, from product launches to trade shows.
+                            </p>
+                        </div>
+                        <a asp-controller="Home" asp-action="Contact" class="link-dark">BOOK NOW<i class="ri-arrow-right-line ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="row align-items-center bg-white shadow-sm g-0">
+            <div class="col-lg-6 col-12">
+                <div class="text-center p-5">
+                    <div class="p-lg-5" data-aos="fade-right" data-aos-duration="600">
+                        <div class="mb-5">
+                            <h1 class="fw-bold pb-3">Corporate Event</h1>
+                            <p>
+                                We handle corporate events with a focus on professionalism and excellence, creating successful meetings, conferences, and team-building activities.
+                            </p>
+                        </div>
+                        <a asp-controller="Home" asp-action="Contact" class="link-dark">BOOK NOW<i class="ri-arrow-right-line ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-12" data-aos="fade-left" data-aos-duration="700">
+                <img src="~/img/eve19.jpeg" alt="weeding-flower" class="img-fluid">
+            </div>
+        </div>
+
+        <div class="row align-items-center bg-white shadow-sm g-0">
+            <div class="col-lg-6 col-12" data-aos="fade-right" data-aos-duration="700">
+                <img src="~/img/service_festival_img.jpg" alt="weeding-flower" class="img-fluid">
+            </div>
+            <div class="col-lg-6 col-12">
+                <div class="text-center p-5">
+                    <div class="p-lg-5" data-aos="fade-left" data-aos-duration="800">
+                        <div class="mb-5">
+                            <h1 class="fw-bold pb-3">Festival</h1>
+                            <p>
+                                We organize fun and lively festivals with creative themes and smooth management, making sure everyone has a great time."
+                            </p>
+                        </div>
+                        <a asp-controller="Home" asp-action="Contact" class="link-dark">BOOK NOW<i class="ri-arrow-right-line ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row align-items-center bg-white shadow-sm g-0">
+            <div class="col-lg-6 col-12">
+                <div class="text-center p-5">
+                    <div class="p-lg-5" data-aos="fade-right" data-aos-duration="600">
+                        <div class="mb-5">
+                            <h1 class="fw-bold pb-3">Educational Event</h1>
+                            <p>
+                                We organize educational events with a focus on enriching content and smooth logistics, creating valuable learning experiences for attendees..
+                            </p>
+                        </div>
+                        <a asp-controller="Home" asp-action="Contact" class="link-dark">BOOK NOW<i class="ri-arrow-right-line ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-12" data-aos="fade-left" data-aos-duration="700">
+                <img src="~/img/eve21.jpeg" alt="weeding-flower" class="img-fluid">
+            </div>
+        </div>
+
+     
+
+     
+
+
+    </div>
+</div>
+
+
+<div class="py-5 bg-white">
+    <div class="container py-4">
+        <div class="row align-items-center g-4">
+            <div class="col-lg-3 col-md-6 col-12" data-aos="zoom-in" data-aos-duration="600">
+                <img src="~/img/Hotel_Logo/logo.png" alt="brands" class="img-fluid w-50 d-block mx-auto">
+            </div>
+            <div class="col-lg-3 col-md-6 col-12" data-aos="zoom-out" data-aos-duration="700">
+                <img src="~/img/Hotel_Logo/logo2.png" alt="brands" class="img-fluid w-50 d-block mx-auto">
+            </div>
+            <div class="col-lg-3 col-md-6 col-12" data-aos="zoom-in" data-aos-duration="800">
+                <img src="~/img/Hotel_Logo/logo3.png" alt="brands" class="img-fluid w-50 d-block mx-auto">
+            </div>
+            <div class="col-lg-3 col-md-6 col-12" data-aos="zoom-out" data-aos-duration="900">
+                <img src="~/img/Hotel_Logo/logo4.png" alt="brands" class="img-fluid w-50 d-block mx-auto">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="py-5">
+    <div class="container py-5">
+        <div class="row justify-content-center mb-5">
+            <div class="col-xl-6 col-lg-8 col-md-10 col-12">
+                <div class="text-center" data-aos="fade-up" data-aos-duration="600">
+                    <i class="ri-image-line display-2 text-primary"></i>
+                    <h1 class="fw-bold">Photo Gallery</h1>
+                    <p class="lead text-muted">Discover the memorable moments we've helped bring to life.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row g-4 gallery">
+            <div class="col-lg-4 col-md-6 col-12" data-aos="flip-left" data-aos-duration="600">
+                <a href="img/gallery/gallery-1.jpg"> <img src="~/img/eve8.jpg" alt="gallery" class="img-fluid"> </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12" data-aos="flip-right" data-aos-duration="700">
+                <a href="img/gallery/gallery-2.jpg"> <img src="~/img/eve11.jpeg" alt="gallery" class="img-fluid"> </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12" data-aos="flip-left" data-aos-duration="700">
+                <a href="img/gallery/gallery-3.jpg"> <img src="~/img/eve10.jpeg" alt="gallery" class="img-fluid"> </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12" data-aos="flip-right" data-aos-duration="800">
+                <a href="img/gallery/gallery-4.jpg"> <img src="~/img/eve15.jpeg" alt="gallery" class="img-fluid"> </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12" data-aos="flip-left" data-aos-duration="800">
+                <a href="img/gallery/gallery-5.jpg"> <img src="~/img/eve6.jpg" alt="gallery" style="height:100%;" class="img-fluid"> </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12" data-aos="flip-right" data-aos-duration="900">
+                <a href="img/gallery/gallery-6.jpg"> <img src="~/img/eve21.jpeg" alt="gallery" class="img-fluid"> </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+@* <div class="py-5">
+    <div class="container py-5">
+        <div class="row justify-content-center mb-5">
+            <div class="col-xl-6 col-lg-8 col-md-10 col-12">
+                <div class="text-center" data-aos="fade-up" data-aos-duration="600">
+                    <i class="ri-price-tag-line display-2 text-primary"></i>
+                    <h1 class="fw-bold">Pricing Plans</h1>
+                    <p class="lead text-muted">Purus velit at volutpat sapien ullamcorper rhoncus.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row g-4 g-md-5">
+            <div class="col-lg-4 col-md-6 col-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="700">
+                <div class="card border-0 text-center rounded-0 shadow overflow-hidden p-5">
+                    <div class="card-header bg-transparent border-0">
+                        <h5 class="card-text">Standard</h5>
+                        <h1 class="card-title fw-bolder display-2">$29</h1>
+                    </div>
+                    <div class="card-body d-flex justify-content-center">
+                        <ul class="list-unstyled d-grid gap-3 text-center">
+                            <li><i class="ri-check-line ri-lg text-primary me-2"></i>Interview the couple</li>
+                            <li><i class="ri-check-line ri-lg text-primary me-2"></i>Preparation of budget</li>
+                            <li class="text-secondary-emphasis"><i class="ri-close-fill ri-lg me-2"></i>Design the event</li>
+                            <li class="text-secondary-emphasis"><i class="ri-close-fill ri-lg me-2"></i>Florist services</li>
+                            <li class="text-secondary-emphasis"><i class="ri-close-fill ri-lg me-2"></i>Photoshoot</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer bg-transparent border-0"><a href="#" class="btn btn-primary rounded-0 btn-lg">GET STARTED</a></div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                <div class="card border-0 text-center rounded-0 shadow overflow-hidden p-5">
+                    <div class="card-header bg-transparent border-0">
+                        <h5 class="card-text">Premium</h5>
+                        <h1 class="card-title fw-bolder display-2">$59</h1>
+                    </div>
+                    <div class="card-body d-flex justify-content-center">
+                        <ul class="list-unstyled d-grid gap-3 text-center">
+                            <li><i class="ri-check-line ri-lg text-primary me-2"></i>Interview the couple</li>
+                            <li><i class="ri-check-line ri-lg text-primary me-2"></i>Preparation of budget</li>
+                            <li><i class="ri-check-line ri-lg text-primary me-2"></i>Design the event</li>
+                            <li class="text-secondary-emphasis"><i class="ri-close-fill ri-lg me-2"></i>Florist services</li>
+                            <li class="text-secondary-emphasis"><i class="ri-close-fill ri-lg me-2"></i>Photoshoot</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer bg-transparent border-0"><a href="#" class="btn btn-primary rounded-0 btn-lg">GET STARTED</a></div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="900">
+                <div class="card border-0 text-center rounded-0 shadow overflow-hidden p-5">
+                    <div class="card-header bg-transparent border-0">
+                        <h5 class="card-text">Platinum</h5>
+                        <h1 class="card-title fw-bolder display-2">$89</h1>
+                    </div>
+                    <div class="card-body d-flex justify-content-center">
+                        <ul class="list-unstyled d-grid gap-3 text-center">
+                            <li><i class="ri-check-line ri-lg text-primary me-2"></i>Interview the couple</li>
+                            <li><i class="ri-check-line ri-lg text-primary me-2"></i>Preparation of budget</li>
+                            <li><i class="ri-check-line ri-lg text-primary me-2"></i>Design the event</li>
+                            <li><i class="ri-check-line ri-lg text-primary me-2"></i>Florist services</li>
+                            <li><i class="ri-check-line ri-lg text-primary me-2"></i>Photoshoot</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer bg-transparent border-0"><a href="#" class="btn btn-primary rounded-0 btn-lg">GET STARTED</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> *@
+

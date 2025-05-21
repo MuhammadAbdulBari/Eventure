@@ -1,0 +1,149 @@
+﻿ @page
+@model RegisterModel
+@{
+    Layout = null;
+}
+
+
+@* 
+<div class="row">
+    <div class="col-md-4">
+        <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+            <div class="form-floating mb-3">
+                <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
+                <label asp-for="Input.Email">Email</label>
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-3">
+                <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
+                <label asp-for="Input.Password">Password</label>
+                <span asp-validation-for="Input.Password" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-3">
+                <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
+                <label asp-for="Input.ConfirmPassword">Confirm Password</label>
+                <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+            </div>
+            <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
+        </form>
+    </div> *@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Colorlib Templates">
+    <meta name="author" content="Colorlib">
+    <meta name="keywords" content="Colorlib Templates">
+
+    <!-- Title Page-->
+    <title>Au Register Forms by Colorlib</title>
+
+    <!-- Icons font CSS-->
+    <link href="~/form/vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link href="~/form/vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <!-- Font special for pages-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- Vendor CSS-->
+    <link href="~/form/vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="~/form/vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="~/form/css/main.css" rel="stylesheet" media="all">
+</head>
+
+<body>
+    <div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins">
+        <div class="wrapper wrapper--w680">
+            <div class="card card-4">
+                <div class="card-body">
+                    <h2 class="title">Registration Form</h2>
+                    <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label asp-for="Input.Email" class="label">Email</label>
+                                    <input asp-for="Input.Email" autocomplete="username" aria-required="true" placeholder="name@example.com" class="input--style-4" type="text">
+                                    <span asp-validation-for="Input.Email" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label asp-for="Input.Password" class="label">Password</label>
+                                    <input asp-for="Input.Password" class="input--style-4" type="password" autocomplete="new-password" aria-required="true" placeholder="password">
+                                    <span asp-validation-for="Input.Password" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label" asp-for="Input.ConfirmPassword">Confirm Password</label>
+                                    <input asp-for="Input.ConfirmPassword" autocomplete="new-password" aria-required="true" placeholder="password" class="input--style-4" type="password">
+                                    <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-t-15">
+                            <button class="btn btn--radius-2 btn--blue" id="registerSubmit" type="submit">Register</button>
+                        </div>
+                        <br/>
+                        <div>Already Registered?<a asp-area="Identity" asp-page="/Account/Login"  > Login</a></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jquery JS-->
+    <script src="~/form/vendor/jquery/jquery.min.js"></script>
+    <!-- Vendor JS-->
+    <script src="~/form/vendor/select2/select2.min.js"></script>
+    <script src="~/form/vendor/datepicker/moment.min.js"></script>
+    <script src="~/form/vendor/datepicker/daterangepicker.js"></script>
+
+    <!-- Main JS-->
+    <script src="~/form/js/global.js"></script>
+
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
+</html>
+
+    <div class="col-md-6 col-md-offset-2">
+        <section>
+            <h3>Use another service to register.</h3>
+            <hr />
+            @{
+                if ((Model.ExternalLogins?.Count ?? 0) == 0)
+                {
+                    <div>
+                        <p>
+                            There are no external authentication services configured. See this <a href="https://go.microsoft.com/fwlink/?LinkID=532715">article
+                            about setting up this ASP.NET application to support logging in via external services</a>.
+                        </p>
+                    </div>
+                }
+                else
+                {
+                    <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
+                        <div>
+                            <p>
+                                @foreach (var provider in Model.ExternalLogins!)
+                                {
+                                    <button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
+                                }
+                            </p>
+                        </div>
+                    </form>
+                }
+            }
+        </section>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+} 

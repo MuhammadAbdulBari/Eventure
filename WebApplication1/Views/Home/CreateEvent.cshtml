@@ -1,0 +1,151 @@
+﻿@model WebApplication1.Models.CreateEvent
+@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+
+@{
+    var sessionValue = HttpContextAccessor.HttpContext.Session.GetString("session");
+
+    if (!string.IsNullOrEmpty(sessionValue))
+    {
+        Layout = "_afterloginLayout";
+    }
+    else
+    {
+        Layout = "_frontendLayout";
+    }
+}
+
+<section class="home-section" style="background-color: #ffe6f0; padding: 40px 0;">
+    <div class="container" style="background-color: #fff; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);">
+
+        <h2 style="padding-top: 40px; margin-left: 20px; color: #d63384; text-align: center; font-weight: bold; font-size: 3em; text-transform: uppercase; letter-spacing: 2px; font-family: 'Georgia', serif; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);">
+            Create New Event
+        </h2>
+
+        <form asp-action="CreateEventForm" method="post" style="padding: 20px;">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="EventName" class="control-label" style="color: #000; font-weight: bold;"></label>
+                <input asp-for="EventName" class="form-control" style="border-color: #d63384; font-weight: bold;" />
+                <span asp-validation-for="EventName" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <label asp-for="EventType" class="control-label" style="color: #000; font-weight: bold;"></label>
+                <select asp-for="EventType" class="form-control" style="border-color: #d63384; font-weight: bold;">
+                    <option value="Wedding">Wedding</option>
+                    <option value="Birthday">Birthday</option>
+                    <option value="Seminar">Seminar</option>
+                    <option value="Business_Event">Business Event</option>
+                    <option value="Corporate_Event">Corporate Event</option>
+                    <option value="Festival">Festival</option>
+                    <option value="Public_Event">Public Event</option>
+                    <option value="Educational_Event">Educational Event</option>
+                </select>
+                <span asp-validation-for="EventType" class="text-danger"></span>
+            </div>
+            <br />
+
+            <div class="form-group">
+                <label asp-for="EventDateTime" class="control-label" style="color: #000; font-weight: bold;"></label>
+                <input asp-for="EventDateTime" class="form-control" style="border-color: #d63384; font-weight: bold;" />
+                <span asp-validation-for="EventDateTime" class="text-danger"></span>
+            </div>
+            <br />
+
+            <div class="form-group">
+                <label asp-for="Venue" class="control-label" style="color: #000; font-weight: bold;"></label>
+                <input asp-for="Venue" class="form-control" style="border-color: #d63384; font-weight: bold;" />
+                <span asp-validation-for="Venue" class="text-danger"></span>
+            </div>
+            <br />
+
+            <div class="form-group">
+                <label asp-for="ClientId" class="control-label" style="color: #000; font-weight: bold;"></label>
+                <input asp-for="ClientId" class="form-control" style="border-color: #d63384; font-weight: bold;" />
+                <span asp-validation-for="ClientId" class="text-danger"></span>
+            </div>
+            <br />
+
+            <div class="form-group">
+                <label asp-for="ClientName" class="control-label" style="color: #000; font-weight: bold;"></label>
+                <input asp-for="ClientName" class="form-control" style="border-color: #d63384; font-weight: bold;" />
+                <span asp-validation-for="ClientName" class="text-danger"></span>
+            </div>
+            <br />
+
+            <div class="form-group">
+                <label asp-for="ClientContact" class="control-label" style="color: #000; font-weight: bold;"></label>
+                <input asp-for="ClientContact" class="form-control" style="border-color: #d63384; font-weight: bold;" />
+                <span asp-validation-for="ClientContact" class="text-danger"></span>
+            </div>
+            <br />
+
+            <div class="form-group">
+                <label asp-for="Budget" class="control-label" style="color: #000; font-weight: bold;"></label>
+                <input asp-for="Budget" class="form-control" style="border-color: #d63384; font-weight: bold;" />
+                <span asp-validation-for="Budget" class="text-danger"></span>
+            </div>
+            <br />
+
+            <div class="form-group">
+                <label asp-for="PaymentMethod" class="control-label" style="color: #000; font-weight: bold;"></label>
+                <select asp-for="PaymentMethod" class="form-control" style="border-color: #d63384; font-weight: bold;">
+                    <option value="Cash">Cash</option>
+                    <option value="Payoneer">Payoneer</option>
+                    <option value="PayPal">PayPal</option>
+                    <option value="BankTransfer">BankTransfer</option>
+                    <option value="EasyPaisa">EasyPaisa</option>
+                    <option value="JazzCash">JazzCash</option>
+                </select>
+                <span asp-validation-for="PaymentMethod" class="text-danger"></span>
+            </div>
+            <br />
+
+            <div class="form-group">
+                <label asp-for="VendorId" class="control-label" style="color: #000; font-weight: bold;"></label>
+                <input asp-for="VendorId" class="form-control" style="border-color: #d63384; font-weight: bold;" />
+                <span asp-validation-for="VendorId" class="text-danger"></span>
+            </div>
+            <br />
+
+            <div class="form-group">
+                <label asp-for="Status" class="control-label" style="color: #000; font-weight: bold;"></label>
+                <select asp-for="Status" class="form-control" style="border-color: #d63384; font-weight: bold;">
+                    <option value="Pending">Pending</option>
+                    <option value="Confirmed">Confirmed</option>
+                    <option value="InProgress">InProgress</option>
+                    <option value="Completed">Completed</option>
+                    <option value="Cancelled">Cancelled</option>
+                    <option value="Postponed">Postponed</option>
+                </select>
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+            <br />
+
+            <div class="form-group">
+                <label asp-for="PaymentStatus" class="control-label" style="color: #000; font-weight: bold;"></label>
+                <select asp-for="PaymentStatus" class="form-control" style="border-color: #d63384; font-weight: bold;">
+                    <option value="Pending">Pending</option>
+                    <option value="Approved">Approved</option>
+                    <option value="Paid">Paid</option>
+                    <option value="Refunded">Refunded</option>
+                </select>
+                <span asp-validation-for="PaymentStatus" class="text-danger"></span>
+            </div>
+            <br />
+
+            <div class="form-group" style="text-align: center;">
+                <input type="submit" value="Add" class="btn btn-primary btn-block" style="background-color: #d63384; border-color: #d63384; color: white; font-weight: bold; width: 100%;" />
+            </div>
+        </form>
+    </div>
+</section>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

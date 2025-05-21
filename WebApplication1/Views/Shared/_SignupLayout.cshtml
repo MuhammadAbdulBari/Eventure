@@ -1,0 +1,28 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="http://cb.mitindia.edu/cb/workshopimages/cbi1.png">
+    <title>Admin login</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.2.0/css/all.css'>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.2.0/css/fontawesome.css'>
+    <link rel="stylesheet" href="~/css/Signup.css">
+</head>
+
+<body>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

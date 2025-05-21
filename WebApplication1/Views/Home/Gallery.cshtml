@@ -1,0 +1,145 @@
+﻿@model WebApplication1.Models.Review
+@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+
+@{
+    var sessionValue = HttpContextAccessor.HttpContext.Session.GetString("session");
+
+    if (!string.IsNullOrEmpty(sessionValue))
+    {
+        Layout = "_afterloginLayout";
+    }
+    else
+    {
+        Layout = "_frontendLayout";
+    }
+}
+
+
+<div class="py-5">
+    <div class="container py-5 mb-5">
+        <div class="row justify-content-center">
+            <div class="col-xl-7 col-lg-8 col-md-10 col-12">
+                <div class="text-center text-white">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb d-flex align-items-center justify-content-center gap-1 text-white" data-aos="fade-up" data-aos-duration="600">
+                            <li class="breadcrumb-item small"><a asp-controller="Home" asp-action="Index" class="link-primary">HOME</a></li>
+                            <li><i class="ri-arrow-right-s-line"></i></li>
+                            <li class="breadcrumb-item text-white-50 small active" aria-current="page">GALLERY</li>
+                        </ol>
+                    </nav>
+                    <h1 class="fw-bold display-1 text-white" data-aos="fade-up" data-aos-duration="600">Our Gallery</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<div class="py-5">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-md-6 col-12">
+                <div class="row justify-content-center mb-4">
+                    <div class="col-12" data-aos="fade-right" data-aos-duration="600">
+                        <h1 class="fw-bold pb-2">May 2024</h1>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="row g-4 june-gallery">
+                    <div class="col-lg-4 col-md-6 col-12" data-aos="flip-left" data-aos-duration="900">
+                        <a href="~/img/gallery/image1.jpg"> <img src="~/img/gallery/image1.jpg" alt="gallery" style="height:13rem;" class="img-fluid"> </a>
+                    </div>
+                   
+                    <div class="col-lg-4 col-md-6 col-12" data-aos="flip-right" data-aos-duration="800">
+                        <a href="~/img/gallery/image5.jpg"> <img src="~/img/gallery/image5.jpg" alt="gallery" style="height:13rem;" class="img-fluid"> </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12" data-aos="flip-left" data-aos-duration="900">
+                        <a href="~/img/gallery/image3.jpeg"> <img src="~/img/gallery/image3.jpeg" alt="gallery" style="height:13rem;" class="img-fluid"> </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12" data-aos="flip-left" data-aos-duration="700">
+                        <a href="~/img/gallery/image4.jpg"> <img src="~/img/gallery/image4.jpg" alt="gallery" style="height:10rem;" class="img-fluid"> </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12" data-aos="flip-right" data-aos-duration="900">
+                        <a href="~/img/gallery/image2.jpeg"> <img src="~/img/gallery/image2.jpeg" alt="gallery" style="height:10rem;" class="img-fluid"> </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12" data-aos="flip-left" data-aos-duration="800">
+                        <a href="~/img/gallery/image6.jpeg"> <img src="~/img/gallery/image6.jpeg" alt="gallery" style="height:10rem;" class="img-fluid"> </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-12">
+                <div class="row justify-content-center mb-4">
+                    <div class="col-12" data-aos="fade-right" data-aos-duration="600">
+                        <h1 class="fw-bold pb-2">July 2024</h1>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="row g-4 gallery">
+                    <div class="col-lg-4 col-md-6 col-12" data-aos="flip-left" data-aos-duration="600">
+                        <a href="~/img/gallery/image01.jpg"> <img src="~/img/gallery/image01.jpg" style="height:10rem;" alt="gallery" class="img-fluid"> </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12" data-aos="flip-right" data-aos-duration="900">
+                        <a href="~/img/gallery/image06.webp"> <img src="~/img/gallery/image06.webp" style="height:10rem;" alt="gallery" class="img-fluid"> </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12" data-aos="flip-left" data-aos-duration="700">
+                        <a href="~/img/gallery/image03.jpg"> <img src="~/img/gallery/image03.jpg" style="height:10rem;" alt="gallery" class="img-fluid"> </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12" data-aos="flip-right" data-aos-duration="800">
+                        <a href="~/img/gallery/image04.jpg"> <img src="~/img/gallery/image04.jpg" style="height:13rem;" alt="gallery" class="img-fluid"> </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12" data-aos="flip-left" data-aos-duration="800">
+                        <a href="~/img/gallery/image05.jpg"> <img src="~/img/gallery/image05.jpg" style="height:13rem;" alt="gallery" class="img-fluid"> </a>
+                    </div>
+                   
+
+                    <div class="col-lg-4 col-md-6 col-12" data-aos="flip-right" data-aos-duration="600">
+                        <a href="~/img/gallery/image02.jpg"> <img src="~/img/gallery/image02.jpg" style="height:13rem;" alt="gallery" class="img-fluid"> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="pb-5">
+    <div class="container pb-5">
+        <div class="row">
+            <div class="col-12">
+                <div class="bg-white shadow p-5">
+                    <div class="text-center py-5">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8 col-md-9 col-12">
+                                <h1 class="fw-bold display-5 pb-5" data-aos="fade-up" data-aos-duration="600">Review Form</h1>
+                                <form asp-action="Gallery">
+                                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                    <div class="row mb-4">
+
+                                     
+
+                                        <div class="col-lg-6 col-md-6 col-12" data-aos="fade-up" data-aos-duration="700">
+                                            <input type="text" asp-for="Name" class="form-control border-0 rounded-0 border-bottom px-0" placeholder="Name" aria-label="Name">
+                                            <span asp-validation-for="Name" class="text-danger"></span>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-12" data-aos="fade-up" data-aos-duration="700">
+                                            <input type="email" asp-for="Email" class="form-control border-0 rounded-0 border-bottom px-0" placeholder="Email" aria-label="Email">
+                                            <span asp-validation-for="Email" class="text-danger"></span>
+                                        </div>
+                                      
+                                    </div>
+<textarea class="form-control border-0 rounded-0 border-bottom px-0 mb-3" asp-for="Message" name="message" rows="6" placeholder="Message"></textarea>
+                                    <span asp-validation-for="Message" class="text-danger"></span>
+
+                                    <div class="col-auto"><input type="submit" value="SEND MESSAGE" class="btn btn-dark btn-lg rounded-0" /> </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

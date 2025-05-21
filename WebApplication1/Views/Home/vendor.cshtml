@@ -1,0 +1,97 @@
+﻿
+@model WebApplication1.Models.vendor
+
+@{
+    Layout = "_dashLayout";
+}
+
+
+
+<section class="home-section">
+<nav>
+    <div class="sidebar-button">
+        <i class='bx bx-menu sidebarBtn'></i>
+        <span class="dashboard">Dashboard</span>
+    </div>
+    <div class="search-box">
+        <input type="text" placeholder="Search...">
+        <i class='bx bx-search'></i>
+    </div>
+    <div class="profile-details">
+        <img src="https://t4.ftcdn.net/jpg/00/97/00/09/360_F_97000908_wwH2goIihwrMoeV9QF3BW6HtpsVFaNVM.jpg"
+             alt="profile">
+        <span class="admin_name"> @ViewData["session"]</span>
+        <i class='bx bx-chevron-down'></i>
+    </div>
+
+</nav>
+
+    <div class="container">
+        <h2 style="padding-top: 120px; margin-left: 20px">Add New Vendor</h2>
+
+
+
+
+            <form asp-action="vendor" method="post" style="margin-left: 20px">
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="Contact_Person" class="control-label"></label>
+                <input asp-for="Contact_Person" class="form-control" />
+                <span asp-validation-for="Contact_Person" class="text-danger"></span>
+            </div>
+
+            
+
+            <div class="form-group">
+                <label asp-for="Number" class="control-label"></label>
+                <input asp-for="Number" class="form-control" />
+                <span asp-validation-for="Number" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Service_Type" class="control-label"></label>
+                <input asp-for="Service_Type" class="form-control" />
+                <span asp-validation-for="Service_Type" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Company_Name" class="control-label"></label>
+                <input asp-for="Company_Name" class="form-control" />
+                <span asp-validation-for="Company_Name" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Address" class="control-label"></label>
+                <input asp-for="Address" class="form-control" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+
+           
+
+            <div class="form-group">
+                <label asp-for="City" class="control-label"></label>
+                <input asp-for="City" class="form-control" ></input>
+                <span asp-validation-for="City" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Add Vendor" class="btn btn-primary" />
+            </div>
+
+        </form>
+    </div>
+
+</section>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

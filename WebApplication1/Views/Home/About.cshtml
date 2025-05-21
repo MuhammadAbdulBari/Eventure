@@ -1,0 +1,229 @@
+﻿@model WebApplication1.Models.UserReg
+@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+
+@{
+    var sessionValue = HttpContextAccessor.HttpContext.Session.GetString("session");
+
+    if (!string.IsNullOrEmpty(sessionValue))
+    {
+        Layout = "_afterloginLayout";
+    }
+    else
+    {
+        Layout = "_frontendLayout";
+    }
+}
+
+<div class="py-5">
+    <div class="container py-5 mb-5">
+        <div class="row justify-content-center">
+            <div class="col-xl-7 col-lg-8 col-md-10 col-12">
+                <div class="text-center text-white">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb d-flex align-items-center justify-content-center gap-1 text-white" data-aos="fade-up" data-aos-duration="500">
+                            <li class="breadcrumb-item small"><a asp-controller="Home" asp-action="Index" class="link-primary">HOME</a></li>
+                            <li><i class="ri-arrow-right-s-line"></i></li>
+                            <li class="breadcrumb-item text-white-50 small active" aria-current="page">ABOUT</li>
+                        </ol>
+                    </nav>
+                    <h1 class="fw-bold display-1 text-white" data-aos="fade-up" data-aos-duration="600">About Us</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="bg-white shadow p-5 mt-n4 text-center">
+                    <div class="px-lg-5">
+                        <i class="ri-vip-diamond-line ri-5x text-primary"></i>
+                        <h1 class="fw-bold display-3 mb-3">
+                            Ceremony and <br>
+                            Event Specialists
+                        </h1>
+                        <p class="mb-0 lead px-lg-5">
+                            At Eventure, we specialize in crafting exceptional ceremonies and events tailored to your unique vision. Whether it's a wedding, birthday, corporate function, or any special occasion, our expert team
+                            ensures every detail is meticulously planned and executed. From intimate gatherings to grand celebrations, we bring creativity, precision, and passion to every event, making your moments truly memorable.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="py-5 our-team">
+    <div class="container py-5">
+        <div class="row justify-content-center mb-5">
+            <div class="col-xl-6 col-lg-8 col-md-10 col-12">
+                <div class="text-center" data-aos="fade-up" data-aos-duration="600">
+                    <i class="ri-team-line display-2 text-primary"></i>
+                    <h1 class="fw-bold">Meet our Team</h1>
+                    <p class="lead text-muted">Get to know the dedicated professionals behind your unforgettable events.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up-right" data-aos-duration="600">
+                <div class="card bg-transparent border-0 rounded-0 text-center">
+                    <img src="~/img/user.png" class="img-fluid rounded-circle w-50 d-block mx-auto" alt="team">
+                    <div class="card-body">
+                        <h3 class="card-title fw-bold pb-2">Zahra Arif</h3>
+                        <h4 class="card-text">EVENT PLANNER</h4>
+                        
+                        <p>Our expert event planners turn your vision into reality. From concept to execution, we ensure every aspect is perfect for your special occasion.</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 d-flex align-items-center justify-content-center gap-3">
+                        <a href="#" class="link-dark bg-white rounded-circle shadow border border-light-subtle icon-sm hover:bg-primary hover:text-white"> <i class="ri-facebook-circle-fill"></i> </a>
+                        <a href="#" class="link-dark bg-white rounded-circle shadow border border-light-subtle icon-sm hover:bg-primary hover:text-white"> <i class="ri-twitter-fill"></i> </a>
+                        <a href="#" class="link-dark bg-white rounded-circle shadow border border-light-subtle icon-sm hover:bg-primary hover:text-white"> <i class="ri-linkedin-box-fill"></i> </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12" data-aos="flip-left" data-aos-duration="700">
+                <div class="card bg-transparent border-0 rounded-0 text-center">
+                    <img src="~/img/user2.png" class="img-fluid rounded-circle w-50 d-block mx-auto" alt="team">
+                    <div class="card-body">
+                        <h3 class="card-title fw-bold pb-2">Abdul Bari</h3>
+                        <h4 class="card-text">EVENT MANAGER</h4>
+                        <p>Our experienced event managers handle every detail with precision, ensuring your event runs smoothly and successfully.</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 d-flex align-items-center justify-content-center gap-3">
+                        <a href="#" class="link-dark bg-white rounded-circle shadow border border-light-subtle icon-sm hover:bg-primary hover:text-white"> <i class="ri-facebook-circle-fill"></i> </a>
+                        <a href="#" class="link-dark bg-white rounded-circle shadow border border-light-subtle icon-sm hover:bg-primary hover:text-white"> <i class="ri-twitter-fill"></i> </a>
+                        <a href="#" class="link-dark bg-white rounded-circle shadow border border-light-subtle icon-sm hover:bg-primary hover:text-white"> <i class="ri-linkedin-box-fill"></i> </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up-left" data-aos-duration="800">
+                <div class="card bg-transparent border-0 rounded-0 text-center">
+                    <img src="~/img/user2.png" class="img-fluid rounded-circle w-50 d-block mx-auto" alt="team">
+                    <div class="card-body">
+                        <h3 class="card-title fw-bold pb-2">Anonymous</h3>
+                        <h4 class="card-text">CORPORATIVE EVENT PLANNER</h4>
+                        <p>Expertly managing your business events, we ensure seamless execution and impactful results.</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 d-flex align-items-center justify-content-center gap-3">
+                        <a href="#" class="link-dark bg-white rounded-circle shadow border border-light-subtle icon-sm hover:bg-primary hover:text-white"> <i class="ri-facebook-circle-fill"></i> </a>
+                        <a href="#" class="link-dark bg-white rounded-circle shadow border border-light-subtle icon-sm hover:bg-primary hover:text-white"> <i class="ri-twitter-fill"></i> </a>
+                        <a href="#" class="link-dark bg-white rounded-circle shadow border border-light-subtle icon-sm hover:bg-primary hover:text-white"> <i class="ri-linkedin-box-fill"></i> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="py-5 bg-primary">
+    <div class="container py-5">
+        <div class="row g-4 position-lg-relative">
+            <div class="col-lg-4 col-12" data-aos="fade-left" data-aos-duration="600">
+                <h1 class="fw-bold display-2 lh-sm text-white">What Our Clients Are Saying</h1>
+                <p class="py-3 lead text-white-50">
+                    Thank you for your kind words! We are thrilled to hear that you had a wonderful experience with Eventure. Our team is dedicated to providing top-notch service and making sure every detail is perfect.
+                </p>
+                <a href="#" class="text-white">LEARN MORE<i class="ri-arrow-right-line ms-1"></i></a>
+            </div>
+            <div class="col-lg-4 col-12 pt-5" data-aos="flip-left" data-aos-duration="700">
+                <img src="~/img/emmie.jpg" alt="emmie-bride" class="img-fluid bride-img start-lg-40 position-lg-absolute">
+            </div>
+            <div class="col-lg-4 col-12" data-aos="fade-up-left" data-aos-duration="800">
+                <div class="bg-white text-white p-5">
+                    <div class="p-4">
+                        <h2 class="fw-bold pb-5">Choose a life partner not because you can merely live with them, but because you cannot imagine living without them</h2>
+                        <img src="~/img/emmie-signature.svg" alt="signature" class="img-fluid bg-black p-2 rounded-2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="py-5 bg-black">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-12">
+                <div class="shadow">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8 col-md-10 col-12">
+                            <div class="text-center text-white">
+                                <div class="mb-5" data-aos="fade-up" data-aos-duration="600">
+                                    <i class="ri-team-line display-2 text-primary"></i>
+                                    <h1 class="fw-bolder pb-2 text-white mt-3">Start Planning Your Event Today</h1>
+                                    <p class="text-white-50 lead">
+                                        Connect with us to bring your vision to life. Let's create an unforgettable experience together.
+                                    </p>
+                                </div>
+                                <a  class="btn btn-primary btn-lg rounded-0" data-aos="fade-up" data-aos-duration="700" asp-controller="Home" asp-action="Contact">START NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="py-5">
+    <div class="container py-5">
+        <div class="row justify-content-center mb-5">
+            <div class="col-xl-6 col-lg-8 col-md-10 col-12">
+                <div class="text-center" data-aos="fade-up" data-aos-duration="600">
+                    <i class="ri-hearts-line display-2 text-primary"></i>
+                    <h1 class="fw-bold">The stories</h1>
+                    <p class="lead text-muted">Every event has a story.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row g-5 text-center">
+            <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up-right" data-aos-duration="600">
+                <div class="card border-0 rounded-0 shadow h-100">
+                    <img src="~/img/eve23.jpg" class="card-img-top rounded-0" alt="bride-groom">
+                    <div class="card-body p-4">
+                        <a href="#"> <h3 class="card-title pb-2">Birthday Ceremony</h3> </a>
+                        <p class="card-text text-muted">Last weekend, we organized a chic and vibrant 21st birthday party for Emma, filled with laughter, dancing, and unforgettable memories.</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 px-4 pb-4">
+                        <a href="#" class="link-primary">Read More<i class="ri-arrow-right-line ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12" data-aos="flip-right" data-aos-duration="700">
+                <div class="card border-0 rounded-0 shadow h-100">
+                    <img src="~/img/eve24.jpg" class="card-img-top rounded-0" alt="bride-groom">
+                    <div class="card-body p-4">
+                        <a href="#"> <h3 class="card-title pb-2">Epic Celebrations</h3> </a>
+                        <p class="card-text text-muted">
+                            We recently had the honor of arranging a grand celebration for the Johnsons event. The venue was beautifully
+                            decorated.
+                        </p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 px-4 pb-4">
+                        <a href="#" class="link-primary">Read More<i class="ri-arrow-right-line ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up-left" data-aos-duration="800">
+                <div class="card border-0 rounded-0 shadow h-100">
+                    <img src="~/img/eve14.jpg" class="card-img-top rounded-0" style="height:100%;" alt="bride-groom">
+                    <div class="card-body p-4">
+                        <a href="#"> <h3 class="card-title pb-2">Corporative Event</h3> </a>
+                        <p class="card-text text-muted">
+                            Eventure successfully managed the annual corporate gala for TechCorp
+                            . The event keynote speeches from industry leaders, interactive workshops.
+                        </p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 px-4 pb-4">
+                        <a href="#" class="link-primary">Read More<i class="ri-arrow-right-line ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

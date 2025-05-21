@@ -1,0 +1,21 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using WebApplication1.Areas.Identity.Data
+
+@inject SignInManager<WebApplication1User> SignInManager
+@inject UserManager<WebApplication1User> UserManager
+
+<ul class="navbar-nav">
+@if (SignInManager.IsSignedIn(User))
+{
+        <li class="nav-item"><a class="nav-link text-uppercase" id="register" asp-area="Identity" asp-page="/Account/Register">See Your Events</a></li>
+    }
+else
+{
+
+        <li class="nav-item"><a class="nav-link text-uppercase" id="register" asp-area="Identity" asp-page="/Account/Register">See Your Events</a></li>
+
+@*     <li class="nav-item">
+        <a class="nav-link text-dark" id="login" asp-area="Identity" asp-page="/Account/Login">Login</a>
+    </li> *@
+}
+</ul>

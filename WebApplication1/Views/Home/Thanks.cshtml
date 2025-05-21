@@ -1,0 +1,37 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+
+@{
+    var sessionValue = HttpContextAccessor.HttpContext.Session.GetString("session");
+
+    if (!string.IsNullOrEmpty(sessionValue))
+    {
+        Layout = "_afterloginLayout";
+    }
+    else
+    {
+        Layout = "_frontendLayout";
+    }
+}
+
+
+
+<div class="py-5">
+    <div class="container py-5 mb-5">
+        <div class="row justify-content-center">
+            <div class="col-xl-7 col-lg-8 col-md-10 col-12">
+                <div class="text-center text-white">
+                    <h1 class="fw-bold display-1 text-white" data-aos="fade-up" data-aos-duration="500">Thanks For Contacting US!</h1>
+                    <p class="py-3 lead text-whie-50 mb-0" data-aos="fade-up" data-aos-duration="600">
+                        Welcome to Eventure, where we turn your moments into memorable experiences. Whether it’s a wedding, a birthday, a corporate event, or any celebration.
+                    </p>
+                    <div class="d-flex align-items-center gap-3 mt-4 mb-5 justify-content-center" data-aos="fade-right" data-aos-duration="600">
+                        <a class="btn btn-primary rounded-0 btn-lg px-4" asp-controller="Home" asp-action="Index">Go to Home Page</a> 
+                    </div>
+                    <i class="ri-mouse-line ri-3x" data-aos="fade-up" data-aos-duration="600"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>

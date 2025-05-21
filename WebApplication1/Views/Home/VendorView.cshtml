@@ -1,0 +1,115 @@
+﻿@model IEnumerable<WebApplication1.Models.vendor>
+
+@{
+    Layout = "_dashLayout";
+}
+
+<section class="home-section">
+    <nav>
+        <div class="sidebar-button">
+            <i class='bx bx-menu sidebarBtn'></i>
+            <span class="dashboard">Dashboard</span>
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="Search...">
+            <i class='bx bx-search'></i>
+        </div>
+        <div class="profile-details">
+            <img src="https://t4.ftcdn.net/jpg/00/97/00/09/360_F_97000908_wwH2goIihwrMoeV9QF3BW6HtpsVFaNVM.jpg"
+                 alt="profile">
+            <span class="admin_name"> @ViewData["session"]</span>
+            <i class='bx bx-chevron-down'></i>
+        </div>
+
+    </nav>
+
+
+    <br><br>
+    <div  style="margin-top: 50px; margin-top:5%; margin-left: 20px;">
+       
+            <a asp-action="vendor"  class="btn btn-primary ml-4 pl-2 w-40">Add New Vendor</a>
+
+    </div>
+
+
+    <table class="table container" style="margin-top: 14px; margin-left: 20px; padding-right: 20px">
+        <div class="row" style="margin-top: 17px; margin-bottom: 20px; margin-left: 20px;">
+    <thead>
+        <tr>
+                <th scope="col">
+                        @Html.DisplayNameFor(model => model.ID)
+                </th>
+
+                <th scope="col">
+                @Html.DisplayNameFor(model => model.Contact_Person)
+            </th>
+
+                <th scope="col">
+                @Html.DisplayNameFor(model => model.Number)
+            </th>
+@* 
+                <th scope="col">
+                @Html.DisplayNameFor(model => model.Email)
+            </th> *@
+
+                <th scope="col">
+                @Html.DisplayNameFor(model => model.Service_Type)
+            </th>
+
+                <th scope="col">
+                @Html.DisplayNameFor(model => model.Company_Name)
+            </th>
+
+                @* <th scope="col">
+                @Html.DisplayNameFor(model => model.Address)
+            </th> *@
+
+              @*   <th scope="col">
+                @Html.DisplayNameFor(model => model.City)
+            </th> *@
+
+            <th></th>
+        </tr>
+    </thead>
+       
+     
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+                    <td>
+                            @Html.DisplayFor(modelItem => item.ID)
+                    </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Contact_Person)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Number)
+            </td>
+           @*  <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td> *@
+            <td>
+                @Html.DisplayFor(modelItem => item.Service_Type)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Company_Name)
+            </td>
+            @* <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td> *@
+            @* <td>
+                @Html.DisplayFor(modelItem => item.City)
+            </td> *@
+            <td>
+                        
+                        <a asp-action="VendorEdit" asp-route-id="@item.ID" class='btn btn-info'>Edit</a> |
+                        <a asp-action="VendorDetails" asp-route-id="@item.ID" class="btn btn-primary btn-xs">Details</a> |
+                        <a asp-action="VendorDelete" asp-route-id="@item.ID" class="btn btn-danger btn-xs">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+    </div>
+</table>
+
+</section>

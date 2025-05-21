@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from iamosahan.com/wrapbootstrap-pillarix/wadeng/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 06 Jul 2024 09:45:18 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="~/img/pages/icon.png" type="image/png">
+    <title>Wadeng - Wedding & Event Planner Website Template</title>
+
+    <link rel="stylesheet" href="~/vender/bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="~/vender/icofont/icofont.min.css">
+
+    <link rel="stylesheet" href="~/vender/aos/dist/aos.css">
+
+    <link rel="stylesheet" href="~/vender/remixicon/remixicon.css">
+
+    <link rel="stylesheet" href="~/vender/slick/slick/slick.css">
+    <link rel="stylesheet" href="~/vender/slick/slick/slick-theme.css">
+
+    <link rel="stylesheet" href="~/vender/light-box/dist/simple-lightbox.css">
+
+    <link rel="stylesheet" href="~/css/style.css">
+
+    <link rel="stylesheet" href="~/css/common.css">
+</head>
+<body class="bg-light">
+
+    <div class="page-loading active">
+        <div class="page-loading-inner">
+            <div class="page-spinner"></div>
+            <span>Loading...</span>
+        </div>
+    </div>
+    <div class="bg-homepage">
+
+        <nav class="navbar osahan-main-nav navbar-expand wedding-nav py-0">
+            <div class="container py-3 py-lg-0">
+                <div class="position-relative d-flex align-items-center d-lg-none gap-2 site-brand">
+                    <i class="ri-empathize-line fs-2 lh-1 text-white"></i>
+                    <div class="lh-1">
+                        <h5 class="fw-bold m-0 text-white">Wedding</h5>
+                        <small class="text-white-50">Template</small>
+                    </div>
+                    <a class="stretched-link" ></a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0 gap-4 m-none align-items-center">
+                        <li class="nav-item"></li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-uppercase" asp-controller="Home" asp-action="Index"><i class="ri-apps-2-line"></i> Home</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link text-uppercase" asp-controller="Home" asp-action="About">About</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="Stories">STORIES</a></li>
+
+                        <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="Services">SERVICES</a></li>
+
+
+                        <li class="nav-item">
+                            <div class="position-relative d-flex align-items-center site-brand text-center px-4">
+                                <div class="text-center">
+                                    <i class="ri-empathize-line fs-2 text-primary"></i>
+                                    <h5 class="fw-bold m-0 lh-1 text-white">Eventure</h5>
+                                    <small class="text-white-50">Your Event Planner</small>
+                                </div>
+                                <a class="stretched-link" href="~/index.html"></a>
+                            </div>
+                        </li>
+                        
+                        <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="Gallery">GALLERY</a></li>
+
+
+
+
+                        <li class="nav-item"><a class="nav-link text-uppercase" asp-controller="Home" asp-action="Contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link text-uppercase" asp-controller="Home" asp-action="CreateEvent">Create Event</a></li>
+
+                        <partial name="_LoginPartial"></partial>
+                        <li class="nav-item"><a class="nav-link text-uppercase" asp-controller="Home" asp-action="UserLogout">Logout</a></li>
+                        <li class="nav-item"><a class="nav-link text-uppercase" > @ViewData["sessionname"]</a></li>
+                    </ul>
+                    <a href="~/#" class="link-light ms-auto d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="sidebar"><i class="ri-menu-3-line ri-lg"></i></a>
+                </div>
+            </div>
+        </nav>
+
+
+    
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+   
+
+        <footer class="bg-footer text-white">
+
+            <div class="container py-5 top-footer">
+                <div class="row py-5 g-4">
+                    <div class="col-lg-3" data-aos="fade-right" data-aos-duration="600">
+                        <div class="mb-4">
+                            <h4 class="fw-bold pb-2 text-white">Head Office</h4>
+                            <p class="text-secondary">Orangi Town, Karachi</p>
+                        </div>
+                        <div class="d-flex flex-column"><a href="~/#" class="link-secondary"><span class="__cf_email__" data-cfemail="f99c81989489959cb99e94989095d79a9694">eventure@gmail.com</span></a> <a href="~/#" class="link-secondary">+923112519750</a></div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-duration="700">
+                        <div class="text-center">
+                            <div class="container py-3 py-lg-4">
+                                <div class="position-relative d-flex align-items-center justify-content-center site-brand text-center">
+                                    <div class="text-center">
+                                        <i class="ri-empathize-line fs-2 text-primary"></i>
+                                        <h5 class="fw-bold m-0 lh-1 text-white">Eventure</h5>
+                                        <small class="text-whie-50">Your Event Planner</small>
+                                    </div>
+                                    <a class="stretched-link" href="~/index.html"></a>
+                                </div>
+                                <p class="lead mt-4 mb-2">Your Event Planner</p>
+                                <p class="text-secondary"> Get the best event management services with Eventure. Contact us today! Don't miss out on our upcoming events and promotions. Stay tuned!</p>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center gap-3 social-links">
+                                <a href="~/#" class="link-secondary border border-secondary rounded-circle icon-sm"><i class="ri-facebook-circle-fill"></i></a>
+                                <a href="~/#" class="link-secondary border border-secondary rounded-circle icon-sm"><i class="ri-twitter-fill"></i></a>
+                                <a href="~/#" class="link-secondary border border-secondary rounded-circle icon-sm"><i class="ri-instagram-fill"></i></a>
+                                <a href="~/#" class="link-secondary border border-secondary rounded-circle icon-sm"><i class="ri-linkedin-box-fill"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3" data-aos="fade-left" data-aos-duration="800">
+                        <div class="text-lg-end">
+                            <h4 class="fw-bold pb-2 text-white">Quick Links</h4>
+                            <ul class="list-unstyled d-grid gap-2">
+                                <li><a class="link-secondary" asp-controller="Home" asp-action="Services">Services</a></li>
+                                <li><a class="link-secondary" asp-controller="Home" asp-action="About">About</a></li>
+                                <li><a class="link-secondary" asp-controller="Home" asp-action="Stories">Stories</a></li>
+                                <li><a class="link-secondary" asp-controller="Home" asp-action="Contact">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-end py-4 bg-black">
+                <div class="container">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-auto">
+                            <p class="text-center m-0 text-white-50">Copyright © <a href="~/#" class="text-white">Eventure</a> 2024</p>
+                        </div>
+                        <div class="col-auto">
+                            <div class="d-flex align-items-center gap-5 footer-links text-uppercase small">
+                                <a href="~/index.html" class="link-secondary">Terms &amp; Conditions</a> <a asp-controller="Home" asp-action="About" class="link-secondary">Privacy Policy</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="~/vender/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+            <script src="~/vender/jquery/jquery-3.6.4.min.js"></script>
+
+            <script src="~/vender/aos/dist/aos.js"></script>
+
+            <script src="~/vender/slick/slick/slick.min.js"></script>
+
+            <script src="~/vender/light-box/dist/simple-lightbox.js"></script>
+
+            <script src="~/js/simple-light-box.js"></script>
+
+            <script src="~/js/script.js"></script>
+        </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+

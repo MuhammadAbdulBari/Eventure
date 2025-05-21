@@ -1,0 +1,114 @@
+﻿@model WebApplication1.Models.CreateEvent
+
+@{
+    Layout = "_dashLayout";
+}
+<section class="home-section">
+    <nav>
+        <div class="sidebar-button">
+            <i class='bx bx-menu sidebarBtn'></i>
+            <span class="dashboard">Dashboard</span>
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="Search...">
+            <i class='bx bx-search'></i>
+        </div>
+        <div class="profile-details">
+            <img src="https://t4.ftcdn.net/jpg/00/97/00/09/360_F_97000908_wwH2goIihwrMoeV9QF3BW6HtpsVFaNVM.jpg"
+                 alt="profile">
+            <span class="admin_name"> @ViewData["session"]</span>
+            <i class='bx bx-chevron-down'></i>
+        </div>
+
+    </nav>
+
+
+
+    <br><br>
+    <div style="margin-top: 50px; margin-top:4%; margin-left: 7%;">
+        <h3>Event Details</h3>
+
+    </div>
+
+    <div class="container">
+        <dl class="row" style="margin-top:1%; padding:1%; margin-left:2%;">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.EventName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.EventName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.EventType)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.EventType)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.EventDateTime)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.EventDateTime)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Venue)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Venue)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ClientId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ClientId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ClientName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ClientName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ClientContact)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ClientContact)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Budget)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Budget)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PaymentMethod)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PaymentMethod)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.VendorId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.VendorId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PaymentStatus)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PaymentStatus)
+        </dd>
+    </dl>
+</div>
+    <div style=" margin-left:8%;">
+        <a asp-action="EventEdit" asp-route-id="@Model?.EventId" class="btn btn-info">Edit</a> |
+        <a asp-action="VendorView"  class="btn btn-secondary">View Vendor</a> |
+        <a asp-action="EventView" class="btn btn-primary btn-xs">Back to List</a>
+</div>
+</section>

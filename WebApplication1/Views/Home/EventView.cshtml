@@ -1,0 +1,139 @@
+﻿@model IEnumerable<WebApplication1.Models.CreateEvent>
+
+@{
+    Layout = "_dashLayout";
+}
+
+<section class="home-section">
+    <nav>
+        <div class="sidebar-button">
+            <i class='bx bx-menu sidebarBtn'></i>
+            <span class="dashboard">Dashboard</span>
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="Search...">
+            <i class='bx bx-search'></i>
+        </div>
+        <div class="profile-details">
+            <img src="https://t4.ftcdn.net/jpg/00/97/00/09/360_F_97000908_wwH2goIihwrMoeV9QF3BW6HtpsVFaNVM.jpg"
+                 alt="profile">
+            <span class="admin_name"> @ViewData["session"]</span>
+            <i class='bx bx-chevron-down'></i>
+        </div>
+
+    </nav>
+
+    <br><br>
+    <div style="margin-top: 50px; margin-top:5%; margin-left: 20px;">
+
+        <a asp-action="CreateEventform" class="btn btn-primary ml-4 pl-2 w-40">Create New Event</a>
+
+    </div>
+
+    <table class="table container" style="margin-top: 14px; margin-left: 20px; padding-right: 20px">
+        <div class="row" style="margin-top: 17px; margin-bottom: 20px; margin-left: 20px;">
+        <thead>
+        <tr>
+                <th>
+                        @Html.DisplayNameFor(model => model.EventId)
+                </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EventName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EventType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EventDateTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Venue)
+            </th>
+           @*  <th>
+                @Html.DisplayNameFor(model => model.ClientId)
+            </th> *@
+            <th>
+                @Html.DisplayNameFor(model => model.ClientName)
+            </th>
+            @* <th>
+                @Html.DisplayNameFor(model => model.ClientContact)
+            </th> *@
+           @*  <th>
+                @Html.DisplayNameFor(model => model.Budget)
+            </th> *@
+           @*  <th>
+                @Html.DisplayNameFor(model => model.PaymentMethod)
+            </th> *@
+            <th>
+                @Html.DisplayNameFor(model => model.VendorId)
+            </th>
+             <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th> 
+           @*  <th>
+                @Html.DisplayNameFor(model => model.PaymentStatus)
+            </th> *@
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+                    <td>
+                            @Html.DisplayFor(modelItem => item.EventId)
+                    </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EventName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EventType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EventDateTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Venue)
+            </td>
+           @*  <td>
+                @Html.DisplayFor(modelItem => item.ClientId)
+            </td> *@
+            <td>
+                @Html.DisplayFor(modelItem => item.ClientName)
+            </td>
+           @*  <td>
+                @Html.DisplayFor(modelItem => item.ClientContact)
+            </td> *@
+           @*  <td>
+                @Html.DisplayFor(modelItem => item.Budget)
+            </td> *@
+            @* <td>
+                @Html.DisplayFor(modelItem => item.PaymentMethod)
+            </td> *@
+            <td>
+                @Html.DisplayFor(modelItem => item.VendorId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+@*             <td>
+                @Html.DisplayFor(modelItem => item.PaymentStatus)
+            </td> *@
+            <td>
+                        <a asp-action="EventEdit" asp-route-id="@item.EventId" class='btn btn-info'><i class="fa fa-edit"></i></a> |
+                        <a asp-action="EventDetails" asp-route-id="@item.EventId" class="btn btn-primary btn-xs"><i class="fa fa-eye"></i></a> |
+                        <a asp-action="EventDelete" asp-route-id="@item.EventId" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i></a> |
+                        <a asp-action="UpdateStatus" asp-route-id="@item.EventId" class="btn btn-warning btn-xs"><i class="fa fa-sync"></i></a>
+                       
+
+            </td>
+        </tr>
+}
+    </tbody>
+
+        </div>
+
+</table>
+
+    
+    
+</section>

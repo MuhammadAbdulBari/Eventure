@@ -1,0 +1,1061 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebApplication1.fpjeb7a7t0.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\css\\Login.css",
+      "PackagePath": "staticwebassets\\css\\Login.css"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\css\\Signup.css",
+      "PackagePath": "staticwebassets\\css\\Signup.css"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\css\\UserLoginStyle.css",
+      "PackagePath": "staticwebassets\\css\\UserLoginStyle.css"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\css\\common.css",
+      "PackagePath": "staticwebassets\\css\\common.css"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\elements\\css\\style.css",
+      "PackagePath": "staticwebassets\\elements\\css\\style.css"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\elements\\elements-accordions-toggles.html",
+      "PackagePath": "staticwebassets\\elements\\elements-accordions-toggles.html"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\elements\\elements-alerts.html",
+      "PackagePath": "staticwebassets\\elements\\elements-alerts.html"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\elements\\elements-badges.html",
+      "PackagePath": "staticwebassets\\elements\\elements-badges.html"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\elements\\elements-blockquotes.html",
+      "PackagePath": "staticwebassets\\elements\\elements-blockquotes.html"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\elements\\elements-borders.html",
+      "PackagePath": "staticwebassets\\elements\\elements-borders.html"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\elements\\elements-buttons.html",
+      "PackagePath": "staticwebassets\\elements\\elements-buttons.html"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\elements\\elements-call-to-action.html",
+      "PackagePath": "staticwebassets\\elements\\elements-call-to-action.html"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\elements\\elements-cards.html",
+      "PackagePath": "staticwebassets\\elements\\elements-cards.html"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\elements\\elements-carousels.html",
+      "PackagePath": "staticwebassets\\elements\\elements-carousels.html"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\elements\\elements-colors.html",
+      "PackagePath": "staticwebassets\\elements\\elements-colors.html"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\elements\\elements-countdowns.html",
+      "PackagePath": "staticwebassets\\elements\\elements-countdowns.html"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\elements\\elements-dropdowns.html",
+      "PackagePath": "staticwebassets\\elements\\elements-dropdowns.html"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\elements\\elements-forms-basic.html",
+      "PackagePath": "staticwebassets\\elements\\elements-forms-basic.html"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\elements\\elements-icons.html",
+      "PackagePath": "staticwebassets\\elements\\elements-icons.html"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\elements\\elements-image-frames.html",
+      "PackagePath": "staticwebassets\\elements\\elements-image-frames.html"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\elements\\elements-lists.html",
+      "PackagePath": "staticwebassets\\elements\\elements-lists.html"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\elements\\elements-maps.html",
+      "PackagePath": "staticwebassets\\elements\\elements-maps.html"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\elements\\elements-medias.html",
+      "PackagePath": "staticwebassets\\elements\\elements-medias.html"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\elements\\elements-modals.html",
+      "PackagePath": "staticwebassets\\elements\\elements-modals.html"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\elements\\elements-offcanvas.html",
+      "PackagePath": "staticwebassets\\elements\\elements-offcanvas.html"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\elements\\elements-pagination.html",
+      "PackagePath": "staticwebassets\\elements\\elements-pagination.html"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\elements\\elements-placeholders.html",
+      "PackagePath": "staticwebassets\\elements\\elements-placeholders.html"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\elements\\elements-pricing-tables.html",
+      "PackagePath": "staticwebassets\\elements\\elements-pricing-tables.html"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\elements\\elements-process.html",
+      "PackagePath": "staticwebassets\\elements\\elements-process.html"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\elements\\elements-progress-bars.html",
+      "PackagePath": "staticwebassets\\elements\\elements-progress-bars.html"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\elements\\elements-spinners.html",
+      "PackagePath": "staticwebassets\\elements\\elements-spinners.html"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\elements\\elements-sticky-elements.html",
+      "PackagePath": "staticwebassets\\elements\\elements-sticky-elements.html"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\elements\\elements-tables.html",
+      "PackagePath": "staticwebassets\\elements\\elements-tables.html"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\elements\\elements-tabs.html",
+      "PackagePath": "staticwebassets\\elements\\elements-tabs.html"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\elements\\elements-testimonials.html",
+      "PackagePath": "staticwebassets\\elements\\elements-testimonials.html"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\elements\\elements-tooltips-popovers.html",
+      "PackagePath": "staticwebassets\\elements\\elements-tooltips-popovers.html"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\elements\\elements-typography.html",
+      "PackagePath": "staticwebassets\\elements\\elements-typography.html"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\elements\\elements.html",
+      "PackagePath": "staticwebassets\\elements\\elements.html"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\form\\css\\main.css",
+      "PackagePath": "staticwebassets\\form\\css\\main.css"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\form\\js\\global.js",
+      "PackagePath": "staticwebassets\\form\\js\\global.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\form\\vendor\\datepicker\\daterangepicker.css",
+      "PackagePath": "staticwebassets\\form\\vendor\\datepicker\\daterangepicker.css"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\form\\vendor\\datepicker\\daterangepicker.js",
+      "PackagePath": "staticwebassets\\form\\vendor\\datepicker\\daterangepicker.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\form\\vendor\\datepicker\\moment.min.js",
+      "PackagePath": "staticwebassets\\form\\vendor\\datepicker\\moment.min.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\form\\vendor\\font-awesome-4.7\\HELP-US-OUT.txt",
+      "PackagePath": "staticwebassets\\form\\vendor\\font-awesome-4.7\\HELP-US-OUT.txt"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\form\\vendor\\font-awesome-4.7\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\form\\vendor\\font-awesome-4.7\\css\\font-awesome.css"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\form\\vendor\\font-awesome-4.7\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\form\\vendor\\font-awesome-4.7\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\form\\vendor\\font-awesome-4.7\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\form\\vendor\\font-awesome-4.7\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\form\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\form\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\form\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\form\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\form\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\form\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\form\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\form\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\form\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\form\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\form\\vendor\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\form\\vendor\\jquery\\jquery.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\form\\vendor\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\form\\vendor\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\form\\vendor\\mdi-font\\css\\material-design-iconic-font.css",
+      "PackagePath": "staticwebassets\\form\\vendor\\mdi-font\\css\\material-design-iconic-font.css"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\form\\vendor\\mdi-font\\css\\material-design-iconic-font.min.css",
+      "PackagePath": "staticwebassets\\form\\vendor\\mdi-font\\css\\material-design-iconic-font.min.css"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\form\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.eot",
+      "PackagePath": "staticwebassets\\form\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.eot"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\form\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.svg",
+      "PackagePath": "staticwebassets\\form\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.svg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\form\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.ttf",
+      "PackagePath": "staticwebassets\\form\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.ttf"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\form\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets\\form\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\form\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.woff2",
+      "PackagePath": "staticwebassets\\form\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.woff2"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\form\\vendor\\select2\\select2.min.css",
+      "PackagePath": "staticwebassets\\form\\vendor\\select2\\select2.min.css"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\form\\vendor\\select2\\select2.min.js",
+      "PackagePath": "staticwebassets\\form\\vendor\\select2\\select2.min.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\Hotel_Logo\\logo.png",
+      "PackagePath": "staticwebassets\\img\\Hotel_Logo\\logo.png"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\Hotel_Logo\\logo2.png",
+      "PackagePath": "staticwebassets\\img\\Hotel_Logo\\logo2.png"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\Hotel_Logo\\logo3.png",
+      "PackagePath": "staticwebassets\\img\\Hotel_Logo\\logo3.png"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\Hotel_Logo\\logo4.png",
+      "PackagePath": "staticwebassets\\img\\Hotel_Logo\\logo4.png"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\Signature.svg",
+      "PackagePath": "staticwebassets\\img\\Signature.svg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\bg-about.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-about.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\bg-contact.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-contact.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\bg-footer.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-footer.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\bg-gallery.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-gallery.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\bg-homepage.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-homepage.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\bg-services.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-services.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\bg-stories.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-stories.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\bg.html",
+      "PackagePath": "staticwebassets\\img\\bg.html"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\brands\\brands-1.svg",
+      "PackagePath": "staticwebassets\\img\\brands\\brands-1.svg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\brands\\brands-2.svg",
+      "PackagePath": "staticwebassets\\img\\brands\\brands-2.svg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\brands\\brands-3.svg",
+      "PackagePath": "staticwebassets\\img\\brands\\brands-3.svg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\brands\\brands-4.svg",
+      "PackagePath": "staticwebassets\\img\\brands\\brands-4.svg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\bride.jpg",
+      "PackagePath": "staticwebassets\\img\\bride.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\emmie-signature.svg",
+      "PackagePath": "staticwebassets\\img\\emmie-signature.svg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\emmie.jpg",
+      "PackagePath": "staticwebassets\\img\\emmie.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\eve.jpg",
+      "PackagePath": "staticwebassets\\img\\eve.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\eve10.jpeg",
+      "PackagePath": "staticwebassets\\img\\eve10.jpeg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\eve11.jpeg",
+      "PackagePath": "staticwebassets\\img\\eve11.jpeg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\eve12.jpg",
+      "PackagePath": "staticwebassets\\img\\eve12.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\eve13.jpg",
+      "PackagePath": "staticwebassets\\img\\eve13.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\eve14.jpg",
+      "PackagePath": "staticwebassets\\img\\eve14.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\eve15.jpeg",
+      "PackagePath": "staticwebassets\\img\\eve15.jpeg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\eve16.jpg",
+      "PackagePath": "staticwebassets\\img\\eve16.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\eve17.jpg",
+      "PackagePath": "staticwebassets\\img\\eve17.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\eve18.jpg",
+      "PackagePath": "staticwebassets\\img\\eve18.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\eve19.jpeg",
+      "PackagePath": "staticwebassets\\img\\eve19.jpeg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\eve2.avif",
+      "PackagePath": "staticwebassets\\img\\eve2.avif"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\eve20.jpg",
+      "PackagePath": "staticwebassets\\img\\eve20.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\eve21.jpeg",
+      "PackagePath": "staticwebassets\\img\\eve21.jpeg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\eve23.jpg",
+      "PackagePath": "staticwebassets\\img\\eve23.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\eve24.jpg",
+      "PackagePath": "staticwebassets\\img\\eve24.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\eve25.jpg",
+      "PackagePath": "staticwebassets\\img\\eve25.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\eve3.jpeg",
+      "PackagePath": "staticwebassets\\img\\eve3.jpeg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\eve4.webp",
+      "PackagePath": "staticwebassets\\img\\eve4.webp"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\eve5.webp",
+      "PackagePath": "staticwebassets\\img\\eve5.webp"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\eve6.jpg",
+      "PackagePath": "staticwebassets\\img\\eve6.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\eve7.jpeg",
+      "PackagePath": "staticwebassets\\img\\eve7.jpeg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\eve7.jpg",
+      "PackagePath": "staticwebassets\\img\\eve7.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\eve8.jpg",
+      "PackagePath": "staticwebassets\\img\\eve8.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\eve9.jpeg",
+      "PackagePath": "staticwebassets\\img\\eve9.jpeg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\gallery\\gallery-1.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery-1.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\gallery\\gallery-10.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery-10.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\gallery\\gallery-11.webp",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery-11.webp"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\gallery\\gallery-2.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery-2.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\gallery\\gallery-3.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery-3.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\gallery\\gallery-4.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery-4.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\gallery\\gallery-5.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery-5.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\gallery\\gallery-6.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery-6.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\gallery\\gallery-7.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery-7.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\gallery\\gallery-8.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery-8.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\gallery\\gallery-9.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery-9.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\gallery\\gallery12.jpeg",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery12.jpeg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\gallery\\gallery12.webp",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery12.webp"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\gallery\\image01.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\image01.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\gallery\\image02.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\image02.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\gallery\\image03.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\image03.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\gallery\\image04.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\image04.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\gallery\\image05.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\image05.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\gallery\\image06.webp",
+      "PackagePath": "staticwebassets\\img\\gallery\\image06.webp"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\gallery\\image1.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\image1.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\gallery\\image2.jpeg",
+      "PackagePath": "staticwebassets\\img\\gallery\\image2.jpeg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\gallery\\image3.jpeg",
+      "PackagePath": "staticwebassets\\img\\gallery\\image3.jpeg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\gallery\\image4.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\image4.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\gallery\\image5.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\image5.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\gallery\\image6.jpeg",
+      "PackagePath": "staticwebassets\\img\\gallery\\image6.jpeg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\lets-chat.jpg",
+      "PackagePath": "staticwebassets\\img\\lets-chat.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\service_birthday_img.webp",
+      "PackagePath": "staticwebassets\\img\\service_birthday_img.webp"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\service_festival_img.jpg",
+      "PackagePath": "staticwebassets\\img\\service_festival_img.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\stories\\eve8.webp",
+      "PackagePath": "staticwebassets\\img\\stories\\eve8.webp"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\stories\\story-1.jpg",
+      "PackagePath": "staticwebassets\\img\\stories\\story-1.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\stories\\story-2.jpg",
+      "PackagePath": "staticwebassets\\img\\stories\\story-2.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\stories\\story-3.jpg",
+      "PackagePath": "staticwebassets\\img\\stories\\story-3.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\stories\\story-4.jpg",
+      "PackagePath": "staticwebassets\\img\\stories\\story-4.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\stories\\story-5.jpg",
+      "PackagePath": "staticwebassets\\img\\stories\\story-5.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\stories\\story-6.jpg",
+      "PackagePath": "staticwebassets\\img\\stories\\story-6.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\user.png",
+      "PackagePath": "staticwebassets\\img\\user.png"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\user2.png",
+      "PackagePath": "staticwebassets\\img\\user2.png"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\wedding\\img-1.jpg",
+      "PackagePath": "staticwebassets\\img\\wedding\\img-1.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\wedding\\img-2.jpg",
+      "PackagePath": "staticwebassets\\img\\wedding\\img-2.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\img\\wedding\\img-3.jpg",
+      "PackagePath": "staticwebassets\\img\\wedding\\img-3.jpg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\js\\simple-light-box.js",
+      "PackagePath": "staticwebassets\\js\\simple-light-box.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\js\\slick.js",
+      "PackagePath": "staticwebassets\\js\\slick.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\aos\\dist\\aos.css",
+      "PackagePath": "staticwebassets\\vender\\aos\\dist\\aos.css"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\aos\\dist\\aos.js",
+      "PackagePath": "staticwebassets\\vender\\aos\\dist\\aos.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\vender\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\vender\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\icofont\\fonts\\icofont.woff",
+      "PackagePath": "staticwebassets\\vender\\icofont\\fonts\\icofont.woff"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\icofont\\fonts\\icofont.woff2",
+      "PackagePath": "staticwebassets\\vender\\icofont\\fonts\\icofont.woff2"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\icofont\\icofont.min.css",
+      "PackagePath": "staticwebassets\\vender\\icofont\\icofont.min.css"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\jquery\\jquery-3.6.4.min.js",
+      "PackagePath": "staticwebassets\\vender\\jquery\\jquery-3.6.4.min.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\light-box\\dist\\simple-lightbox.css",
+      "PackagePath": "staticwebassets\\vender\\light-box\\dist\\simple-lightbox.css"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\light-box\\dist\\simple-lightbox.js",
+      "PackagePath": "staticwebassets\\vender\\light-box\\dist\\simple-lightbox.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\light-gallery-master\\dist\\css\\lightgallery-bundle.min.css",
+      "PackagePath": "staticwebassets\\vender\\light-gallery-master\\dist\\css\\lightgallery-bundle.min.css"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\light-gallery-master\\dist\\fonts\\lgb687.svg",
+      "PackagePath": "staticwebassets\\vender\\light-gallery-master\\dist\\fonts\\lgb687.svg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\light-gallery-master\\dist\\fonts\\lgb687.ttf",
+      "PackagePath": "staticwebassets\\vender\\light-gallery-master\\dist\\fonts\\lgb687.ttf"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\light-gallery-master\\dist\\fonts\\lgb687.woff",
+      "PackagePath": "staticwebassets\\vender\\light-gallery-master\\dist\\fonts\\lgb687.woff"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\light-gallery-master\\dist\\fonts\\lgb687.woff2",
+      "PackagePath": "staticwebassets\\vender\\light-gallery-master\\dist\\fonts\\lgb687.woff2"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\light-gallery-master\\dist\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\vender\\light-gallery-master\\dist\\images\\loading.gif"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\light-gallery-master\\dist\\lightgallery.min.js",
+      "PackagePath": "staticwebassets\\vender\\light-gallery-master\\dist\\lightgallery.min.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\light-gallery-master\\dist\\plugins\\autoplay\\lg-autoplay.umd.js",
+      "PackagePath": "staticwebassets\\vender\\light-gallery-master\\dist\\plugins\\autoplay\\lg-autoplay.umd.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\light-gallery-master\\dist\\plugins\\comment\\lg-comment.min.js",
+      "PackagePath": "staticwebassets\\vender\\light-gallery-master\\dist\\plugins\\comment\\lg-comment.min.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\light-gallery-master\\dist\\plugins\\fullscreen\\lg-fullscreen.min.js",
+      "PackagePath": "staticwebassets\\vender\\light-gallery-master\\dist\\plugins\\fullscreen\\lg-fullscreen.min.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\light-gallery-master\\dist\\plugins\\hash\\lg-hash.min.js",
+      "PackagePath": "staticwebassets\\vender\\light-gallery-master\\dist\\plugins\\hash\\lg-hash.min.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\light-gallery-master\\dist\\plugins\\mediumZoom\\lg-medium-zoom.min.js",
+      "PackagePath": "staticwebassets\\vender\\light-gallery-master\\dist\\plugins\\mediumZoom\\lg-medium-zoom.min.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\light-gallery-master\\dist\\plugins\\pager\\lg-pager.min.js",
+      "PackagePath": "staticwebassets\\vender\\light-gallery-master\\dist\\plugins\\pager\\lg-pager.min.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\light-gallery-master\\dist\\plugins\\relativeCaption\\lg-relative-caption.min.js",
+      "PackagePath": "staticwebassets\\vender\\light-gallery-master\\dist\\plugins\\relativeCaption\\lg-relative-caption.min.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\light-gallery-master\\dist\\plugins\\rotate\\lg-rotate.min.js",
+      "PackagePath": "staticwebassets\\vender\\light-gallery-master\\dist\\plugins\\rotate\\lg-rotate.min.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\light-gallery-master\\dist\\plugins\\share\\lg-share.min.js",
+      "PackagePath": "staticwebassets\\vender\\light-gallery-master\\dist\\plugins\\share\\lg-share.min.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\light-gallery-master\\dist\\plugins\\thumbnail\\lg-thumbnail.min.js",
+      "PackagePath": "staticwebassets\\vender\\light-gallery-master\\dist\\plugins\\thumbnail\\lg-thumbnail.min.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\light-gallery-master\\dist\\plugins\\video\\lg-video.min.js",
+      "PackagePath": "staticwebassets\\vender\\light-gallery-master\\dist\\plugins\\video\\lg-video.min.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\light-gallery-master\\dist\\plugins\\vimeoThumbnail\\lg-vimeo-thumbnail.min.js",
+      "PackagePath": "staticwebassets\\vender\\light-gallery-master\\dist\\plugins\\vimeoThumbnail\\lg-vimeo-thumbnail.min.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\light-gallery-master\\dist\\plugins\\zoom\\lg-zoom.min.js",
+      "PackagePath": "staticwebassets\\vender\\light-gallery-master\\dist\\plugins\\zoom\\lg-zoom.min.js"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\remixicon\\remixicon.css",
+      "PackagePath": "staticwebassets\\vender\\remixicon\\remixicon.css"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\remixicon\\remixicon7001.eot",
+      "PackagePath": "staticwebassets\\vender\\remixicon\\remixicon7001.eot"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\remixicon\\remixicon7001.svg",
+      "PackagePath": "staticwebassets\\vender\\remixicon\\remixicon7001.svg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\remixicon\\remixicon7001.ttf",
+      "PackagePath": "staticwebassets\\vender\\remixicon\\remixicon7001.ttf"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\remixicon\\remixicon7001.woff",
+      "PackagePath": "staticwebassets\\vender\\remixicon\\remixicon7001.woff"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\remixicon\\remixicon7001.woff2",
+      "PackagePath": "staticwebassets\\vender\\remixicon\\remixicon7001.woff2"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\slick\\slick\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\vender\\slick\\slick\\ajax-loader.gif"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\slick\\slick\\fonts\\slick.eot",
+      "PackagePath": "staticwebassets\\vender\\slick\\slick\\fonts\\slick.eot"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\slick\\slick\\fonts\\slick.svg",
+      "PackagePath": "staticwebassets\\vender\\slick\\slick\\fonts\\slick.svg"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\slick\\slick\\fonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\vender\\slick\\slick\\fonts\\slick.ttf"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\slick\\slick\\fonts\\slick.woff",
+      "PackagePath": "staticwebassets\\vender\\slick\\slick\\fonts\\slick.woff"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\slick\\slick\\fonts\\slickd41d.eot",
+      "PackagePath": "staticwebassets\\vender\\slick\\slick\\fonts\\slickd41d.eot"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\slick\\slick\\slick-theme.css",
+      "PackagePath": "staticwebassets\\vender\\slick\\slick\\slick-theme.css"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\slick\\slick\\slick.css",
+      "PackagePath": "staticwebassets\\vender\\slick\\slick\\slick.css"
+    },
+    {
+      "Id": "E:\\deskold\\vision\\WebApplication1\\wwwroot\\vender\\slick\\slick\\slick.min.js",
+      "PackagePath": "staticwebassets\\vender\\slick\\slick\\slick.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebApplication1.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebApplication1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebApplication1.props",
+      "PackagePath": "build\\WebApplication1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebApplication1.props",
+      "PackagePath": "buildMultiTargeting\\WebApplication1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebApplication1.props",
+      "PackagePath": "buildTransitive\\WebApplication1.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
