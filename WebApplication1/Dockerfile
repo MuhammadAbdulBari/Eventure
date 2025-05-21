@@ -8,12 +8,12 @@ WORKDIR /src
 
 # Replace with your actual project file name
 COPY ["YourProjectName.csproj", "./"]
-RUN dotnet restore "./YourProjectName.csproj"
+RUN dotnet restore "./WebApplication1.csproj"
 
 COPY . .
-RUN dotnet publish "./YourProjectName.csproj" -c Release -o /app/publish
+RUN dotnet publish "./WebApplication1.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
 COPY --from=build /app/publish .
-ENTRYPOINT ["dotnet", "YourProjectName.dll"]
+ENTRYPOINT ["dotnet", "WebApplication1.dll"]
